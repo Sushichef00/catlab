@@ -1,0 +1,104 @@
+    1  git config --global user.name "Teemu Karjalainen"
+    2  git config --global user.email "t5kate01@students.oamk.fi"
+    3  pwd
+    4  mkdir gitrepo
+    5  pwd mkdir gitrepo cd gitrepo/
+    6  pwd C:/Users/Teemu/Documents/GIT
+    7  mkdir gitrepo
+    8  mkdir gitrepo
+    9  cd gitrepo/
+   10  ssh-keygen -t rsa -b 4096
+   11  eval "$(ssh-agent -s)"
+   12  ssh-add ~/.ssh/id_rsa
+   13  clip < ~/.ssh/id_rsa.pub
+   14  cd /c/Users/Teemu/.ssh/id_rsa
+   15  cd /c/Users/Teemu/gitrepo
+   16  ls
+   17  git init
+   18  ls
+   19  git add .
+   20  git status
+   21  git commit -m "Added a new file"
+   22  git remote add origin https://github.com/Sushichef00/Ohjelmistotuotanto.git
+   23  git remote -v
+   24  git push origin master
+   25  git log
+   26  git branch
+   27  git add .
+   28  git commit -m "Added line 4"
+   29  git push origin master
+   30  git checkout c29049a36798a821595a0f9382f85aeb709acf87
+   31  git checkout 39fa671d88710473ca266f0ae1cfb60e1bb0556c
+   32  git checkout master
+   33  git branch b1
+   34  git branch
+   35  git add .
+   36  git commit -m "Added line 5"
+   37  git checkout b1
+   38  git branch
+   39  git add .
+   40  git commit -m "Added line 0"
+   41  git checkout master
+   42  git checkout b1
+   43  git checkout master
+   44  git branch
+   45  git merge b1 -m "Merged"
+   46  git branch
+   47  git chechkout master
+   48  git checkout master
+   49  git checkout b1
+   50  git push origin master
+   51  git branch
+   52  git checkout master
+   53  history > mylog.log
+   54  git branch -d b1
+   55  git branch -D b1
+   56  git branch b2
+   57  git branch
+   58  git merge b2 -m "Merged"
+   59  git add .
+   60  git commit -m "Fixed merge"
+   61  git branch
+   62  git branch -d b2
+   63  git branch
+   64  git branch b1
+   65  git checkout b1
+   66  git add .
+   67  git branch
+   68  git commit -m "Added a new branch"
+   69  git push origin b1
+   70  git branch
+   71  git branch -d b1
+   72  git checkout master
+   73  git branch -d b1
+   74  git branch -D b1
+   75  git branch
+   76  git help
+   77  git init 
+   78  git init /c/Users/Teemu/gitrepo
+   79  git branch
+   80  git init /c/Users/Teemu/labcatrepo
+   81  cd remote add origincd
+   82  cd /c/Users/Teemu/labcatrepo
+   83  git init
+   84  git add.
+   85  git add .
+   86  git commit -m "Added shortcat"
+   87  git remote add origin https://github.com/Sushichef00/catlab.git
+   88  git remote -v
+   89  git push origin master
+   90  git branch b1
+   91  git branch
+   92  git add .
+   93  git commit -m "Made cat longer"
+   94  git checkout b1
+   95  git branch
+   96  git add .
+   97  git commit -m "Added ears on the cat"
+   98  git chechkout master
+   99  git checkout master
+  100  git branch
+  101  git merge b1 -m "merge cats"
+  102  git branch -d b1
+  103  git push origin master
+  104  history > catlog.log
